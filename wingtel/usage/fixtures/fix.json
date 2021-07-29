@@ -1,0 +1,723 @@
+[
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 13,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 14,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 15,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 16,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 17,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 18,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 19,
+        "fields": {
+            "app_label": "att_subscriptions",
+            "model": "attsubscription"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 20,
+        "fields": {
+            "app_label": "plans",
+            "model": "plan"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 21,
+        "fields": {
+            "app_label": "purchases",
+            "model": "purchase"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 22,
+        "fields": {
+            "app_label": "sprint_subscriptions",
+            "model": "sprintsubscription"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 23,
+        "fields": {
+            "app_label": "usage",
+            "model": "datausagerecord"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 24,
+        "fields": {
+            "app_label": "usage",
+            "model": "voiceusagerecord"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "bozvfwdibr6ch4xry5333lecdmzcjweg",
+        "fields": {
+            "session_data": "MjFkOTAwODMyMzUwMjhjMDM5ZTQxZTgwODhhOGFhNmYxMzRlOWRjZjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJiMWNkYTE1ZGRjM2RkNjBiYjQ4MDJkYWQxNmJkNWJiZmU3NTdhZmVkIn0=",
+            "expire_date": "2021-08-11T12:58:16.319Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "foasxkctccjifqudjiflzln1bf4zzglv",
+        "fields": {
+            "session_data": "MjFkOTAwODMyMzUwMjhjMDM5ZTQxZTgwODhhOGFhNmYxMzRlOWRjZjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJiMWNkYTE1ZGRjM2RkNjBiYjQ4MDJkYWQxNmJkNWJiZmU3NTdhZmVkIn0=",
+            "expire_date": "2021-08-11T12:06:32.318Z"
+        }
+    },
+    {
+        "model": "plans.plan",
+        "pk": 1,
+        "fields": {
+            "name": "Plan1",
+            "price": "3.00",
+            "data_available": 4,
+            "created_at": "2021-07-28T13:14:38.636Z",
+            "updated_at": "2021-07-28T13:14:38.636Z"
+        }
+    },
+    {
+        "model": "usage.datausagerecord",
+        "pk": 1,
+        "fields": {
+            "att_subscription_id": 1,
+            "sprint_subscription_id": 1,
+            "price": "330.00",
+            "usage_date": "2021-07-28T13:32:04Z",
+            "kilobytes_used": 323
+        }
+    },
+    {
+        "model": "usage.voiceusagerecord",
+        "pk": 1,
+        "fields": {
+            "att_subscription_id": 1,
+            "sprint_subscription_id": 1,
+            "price": "399.00",
+            "usage_date": "2021-07-28T13:32:48Z",
+            "seconds_used": 3
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 49,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 13,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 50,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 13,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 51,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 13,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 52,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 13,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 53,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 14,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 54,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 14,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 55,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 14,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 56,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 14,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 57,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 15,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 58,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 15,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 59,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 15,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 60,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 15,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 61,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 16,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 62,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 16,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 63,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 16,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 64,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 16,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 65,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 17,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 66,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 17,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 67,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 17,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 68,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 17,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 69,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 18,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 70,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 18,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 71,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 18,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 72,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 18,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 73,
+        "fields": {
+            "name": "Can add att subscription",
+            "content_type": 19,
+            "codename": "add_attsubscription"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 74,
+        "fields": {
+            "name": "Can change att subscription",
+            "content_type": 19,
+            "codename": "change_attsubscription"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 75,
+        "fields": {
+            "name": "Can delete att subscription",
+            "content_type": 19,
+            "codename": "delete_attsubscription"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 76,
+        "fields": {
+            "name": "Can view att subscription",
+            "content_type": 19,
+            "codename": "view_attsubscription"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 77,
+        "fields": {
+            "name": "Can add plan",
+            "content_type": 20,
+            "codename": "add_plan"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 78,
+        "fields": {
+            "name": "Can change plan",
+            "content_type": 20,
+            "codename": "change_plan"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 79,
+        "fields": {
+            "name": "Can delete plan",
+            "content_type": 20,
+            "codename": "delete_plan"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 80,
+        "fields": {
+            "name": "Can view plan",
+            "content_type": 20,
+            "codename": "view_plan"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 81,
+        "fields": {
+            "name": "Can add purchase",
+            "content_type": 21,
+            "codename": "add_purchase"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 82,
+        "fields": {
+            "name": "Can change purchase",
+            "content_type": 21,
+            "codename": "change_purchase"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 83,
+        "fields": {
+            "name": "Can delete purchase",
+            "content_type": 21,
+            "codename": "delete_purchase"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 84,
+        "fields": {
+            "name": "Can view purchase",
+            "content_type": 21,
+            "codename": "view_purchase"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 85,
+        "fields": {
+            "name": "Can add sprint subscription",
+            "content_type": 22,
+            "codename": "add_sprintsubscription"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 86,
+        "fields": {
+            "name": "Can change sprint subscription",
+            "content_type": 22,
+            "codename": "change_sprintsubscription"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 87,
+        "fields": {
+            "name": "Can delete sprint subscription",
+            "content_type": 22,
+            "codename": "delete_sprintsubscription"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 88,
+        "fields": {
+            "name": "Can view sprint subscription",
+            "content_type": 22,
+            "codename": "view_sprintsubscription"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 89,
+        "fields": {
+            "name": "Can add data usage record",
+            "content_type": 23,
+            "codename": "add_datausagerecord"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 90,
+        "fields": {
+            "name": "Can change data usage record",
+            "content_type": 23,
+            "codename": "change_datausagerecord"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 91,
+        "fields": {
+            "name": "Can delete data usage record",
+            "content_type": 23,
+            "codename": "delete_datausagerecord"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 92,
+        "fields": {
+            "name": "Can view data usage record",
+            "content_type": 23,
+            "codename": "view_datausagerecord"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 93,
+        "fields": {
+            "name": "Can add voice usage record",
+            "content_type": 24,
+            "codename": "add_voiceusagerecord"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 94,
+        "fields": {
+            "name": "Can change voice usage record",
+            "content_type": 24,
+            "codename": "change_voiceusagerecord"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 95,
+        "fields": {
+            "name": "Can delete voice usage record",
+            "content_type": 24,
+            "codename": "delete_voiceusagerecord"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 96,
+        "fields": {
+            "name": "Can view voice usage record",
+            "content_type": 24,
+            "codename": "view_voiceusagerecord"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$150000$Hhaui9E62jP8$qNyB6ACey0WTg6jcBkoS4kRa/PXEuQG9emg//0Ux9kM=",
+            "last_login": "2021-07-28T12:58:16.317Z",
+            "is_superuser": true,
+            "username": "s",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2021-07-28T12:06:28.450Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "att_subscriptions.attsubscription",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "plan": 1,
+            "status": "new",
+            "device_id": "312",
+            "phone_number": "22",
+            "phone_model": "wedewf",
+            "network_type": "fewfe",
+            "effective_date": "2021-07-28T13:31:01Z",
+            "created_at": "2021-07-28T13:31:03.403Z",
+            "updated_at": "2021-07-28T13:31:03.403Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "purchases.purchase",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "sprint_sub": 1,
+            "att_sub": 1,
+            "status": "pending",
+            "amount": "3222.00",
+            "payment_date": "2021-07-28T13:31:29Z",
+            "created_at": "2021-07-28T13:31:30.777Z",
+            "updated_at": "2021-07-28T13:31:30.777Z"
+        }
+    },
+    {
+        "model": "sprint_subscriptions.sprintsubscription",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "plan": 1,
+            "status": "new",
+            "device_id": "43",
+            "phone_number": "32432423",
+            "phone_model": "efdfre",
+            "sprint_id": "32321",
+            "effective_date": "2021-07-28T13:28:42Z",
+            "created_at": "2021-07-28T13:28:44.553Z",
+            "updated_at": "2021-07-28T13:28:44.553Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2021-07-28T13:14:38.638Z",
+            "user": 1,
+            "content_type": 20,
+            "object_id": "1",
+            "object_repr": "Plan object (1)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2021-07-28T13:28:44.554Z",
+            "user": 1,
+            "content_type": 22,
+            "object_id": "1",
+            "object_repr": "SprintSubscription object (1)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2021-07-28T13:31:03.405Z",
+            "user": 1,
+            "content_type": 19,
+            "object_id": "1",
+            "object_repr": "ATTSubscription object (1)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2021-07-28T13:31:30.779Z",
+            "user": 1,
+            "content_type": 21,
+            "object_id": "1",
+            "object_repr": "Purchase object (1)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2021-07-28T13:32:12.627Z",
+            "user": 1,
+            "content_type": 23,
+            "object_id": "1",
+            "object_repr": "DataUsageRecord object (1)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2021-07-28T13:32:51.690Z",
+            "user": 1,
+            "content_type": 24,
+            "object_id": "1",
+            "object_repr": "VoiceUsageRecord object (1)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    }
+]
