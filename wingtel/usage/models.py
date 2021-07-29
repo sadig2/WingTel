@@ -11,6 +11,7 @@ class DataUsageRecord(models.Model):
                                             null=True,
                                             on_delete=models.PROTECT)
     sprint_subscription_id = models.ForeignKey(SprintSubscription,
+                                               related_name="data_usage_record",
                                                null=True,
                                                on_delete=models.PROTECT)
     price = models.DecimalField(decimal_places=2, max_digits=5, default=0)

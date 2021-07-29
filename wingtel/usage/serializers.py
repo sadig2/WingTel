@@ -4,14 +4,14 @@ from django.db.models import Avg, Sum
 
 
 class DataUsageRecordSerializer(serializers.ModelSerializer):
-    price_avg = serializers.SerializerMethodField()
+    total_price = serializers.SerializerMethodField()
 
     class Meta:
         model = DataUsageRecord
-        fields = ['id', 'price', 'price_avg']
+        fields = ['id', 'price','usage_date','kilobytes_used', 'total_price']
 
-    def get_price_avg(self, obj):
-        return DataUsageRecord.objects.all().aggregate(Avg('price'))
+    def get_total_price(self, obj):
+        return DataUsageRecord.objects.all().aggregate(Sum('price'))['price__sum']
 
 
 class VoiceUsageRecordSerializer(serializers.ModelSerializer):
